@@ -1,0 +1,136 @@
+Give PEAS and State Space description : Vacuum-cleaner World 
+PEAS Description:
+
+Performance measure: The performance of the vacuum cleaner agent is measured by the number of clean squares and the time taken to clean them all.
+Environment: The environment is a rectangular grid of squares that can either be clean or dirty. The vacuum cleaner agent can move to any square and clean it if it is dirty.
+Actuators: The actuators available to the agent are moving in one of four directions (up, down, left, right) and cleaning the current square.
+Sensors: The sensors available to the agent are the current location of the agent, the status of the current square (clean or dirty), and any obstacles or boundaries.
+State Space Description:
+The state space of the vacuum cleaner world consists of all possible combinations of the following factors:
+
+The location of the vacuum cleaner agent
+The status of each square in the environment (clean or dirty)
+The location of any obstacles or boundaries in the environment
+The direction that the agent is currently facing
+At any given moment, the agent can observe the status of the square it is currently occupying and any obstacles or boundaries in its immediate vicinity. The agent can choose to move in any of the four directions or clean the current square. The state space of the vacuum cleaner world is finite, as there are only a limited number of possible configurations of the environment. However, the size of the state space grows exponentially with the size of the environment.
+
+
+
+
+
+
+2.	Give PEAS and State Space description : Internet Shopping Agent 
+PEAS Description:
+
+Performance measure: The performance of the internet shopping agent is measured by the number of successful purchases made and the time taken to complete them.
+Environment: The environment is an online shopping website that offers a wide range of products for purchase. The internet shopping agent can access the website, browse the products, add items to the cart, and complete the purchase process.
+Actuators: The actuators available to the agent are browsing the website, selecting products, adding them to the cart, and completing the checkout process.
+Sensors: The sensors available to the agent are the current status of the shopping cart, the product inventory, the user's payment details, and any error messages or notifications from the website.
+State Space Description:
+The state space of the internet shopping agent consists of all possible combinations of the following factors:
+
+The current page of the website that the agent is browsing
+The current contents of the shopping cart
+The inventory of available products on the website
+The payment information of the user
+At any given moment, the agent can observe the current page of the website and the available products, add items to the cart, and proceed to the checkout process. The state space of the internet shopping agent is very large, as it depends on the size of the product inventory and the number of pages on the website. Additionally, the state space can change dynamically as the user navigates the website and makes changes to their shopping cart. Therefore, the internet shopping agent needs to use efficient algorithms and strategies to navigate the state space and make successful purchases.
+
+
+
+
+
+
+
+
+
+
+
+ Interactive English Tutor:
+PEAS Description:
+
+Performance measure: The performance of the interactive English tutor is measured by the improvement in the student's English language skills, such as grammar, vocabulary, and comprehension.
+Environment: The environment is a web-based platform that offers interactive English language exercises, quizzes, and tutorials. The interactive English tutor can access the platform, analyze the student's language skills, and provide personalized feedback and guidance.
+Actuators: The actuators available to the interactive English tutor are selecting appropriate exercises and tutorials, providing feedback on the student's performance, and adapting the learning materials to the student's needs.
+Sensors: The sensors available to the interactive English tutor are the student's language proficiency level, their responses to the exercises and quizzes, and any error messages or notifications from the platform.
+State Space Description:
+The state space of the interactive English tutor consists of all possible combinations of the following factors:
+
+The student's language proficiency level
+The available English language exercises, quizzes, and tutorials
+The student's responses to the exercises and quizzes
+The feedback and guidance provided by the interactive English tutor
+At any given moment, the interactive English tutor can observe the student's language proficiency level, select appropriate learning materials, and provide personalized feedback and guidance. The state space of the interactive English tutor is very large, as it depends on the complexity of the English language and the variety of learning materials available on the platform.
+
+
+
+
+
+
+
+
+
+Medical Diagnosis System:
+PEAS Description:
+
+Performance measure: The performance of the medical diagnosis system is measured by the accuracy of the diagnosis and the time taken to make the diagnosis.
+Environment: The environment is a patient's medical history, symptoms, and test results. The medical diagnosis system can analyze the data, generate a list of possible diagnoses, and recommend further tests or treatments.
+Actuators: The actuators available to the medical diagnosis system are analyzing the patient's medical data, generating a list of possible diagnoses, and recommending further tests or treatments.
+Sensors: The sensors available to the medical diagnosis system are the patient's medical history, symptoms, and test results, as well as any error messages or notifications from the system.
+State Space Description:
+The state space of the medical diagnosis system consists of all possible combinations of the following factors:
+
+The patient's medical history, including any pre-existing conditions and previous treatments
+The patient's current symptoms and test results
+The possible diagnoses based on the available medical data
+The recommended tests and treatments for each diagnosis
+At any given moment, the medical diagnosis system can observe the patient's medical data, generate a list of possible diagnoses, and recommend further tests or treatments. The state space of the medical diagnosis system is very large, as it depends on the complexity of the medical conditions and the variety of diagnostic tests available.
+
+
+
+
+
+
+
+
+
+Automated Taxi Driver:
+PEAS Description:
+
+Performance measure: The performance of the automated taxi driver is measured by the safety of the passengers, the efficiency of the route, and the time taken to reach the destination.
+Environment: The environment is a city with various roads, traffic signals, and obstacles. The automated taxi driver can navigate the city, follow traffic rules, and avoid collisions.
+Actuators: The actuators available to the automated taxi driver are accelerating, braking, steering, and signaling.
+Sensors: The sensors available to the automated taxi driver are the traffic signals, the location of other vehicles, pedestrians, and obstacles, as well as any error messages or notifications from the system.
+State Space Description:
+The state space of the automated taxi driver consists of all possible combinations of the following factors:
+
+The current location of the taxi
+The available routes and destinations
+The traffic signals and the current state of traffic
+The positions and movements of other vehicles, pedestrians, and obstacles
+The state of the taxi's sensors and actuators
+At any given moment, the automated taxi driver can observe the state of the environment, choose a safe and efficient route, and control the taxi's speed and direction. The state space of the automated taxi driver is very large, as it depends on the complexity of the city and the behavior of other vehicles and pedestrians.
+
+
+
+
+
+
+
+
+
+Part-Picking Robot:
+PEAS Description:
+
+Performance measure: The performance of the part-picking robot is measured by the efficiency and accuracy of part picking and placement.
+Environment: The environment is a warehouse or factory where parts are stored and assembled. The part-picking robot can navigate the environment, locate the required parts, and place them in the designated location.
+Actuators: The actuators available to the part-picking robot are moving, grasping, and placing parts.
+Sensors: The sensors available to the part-picking robot are cameras, sensors, and other devices that detect the location and orientation of the parts, as well as any error messages or notifications from the system.
+State Space Description:
+The state space of the part-picking robot consists of all possible combinations of the following factors:
+
+The location of the required parts
+The location of the part-picking robot
+The current orientation and position of the parts and the robot
+The location and orientation of the designated part placement location
+The state of the robot's sensors and actuators
+At any given moment, the part-picking robot can observe the environment, locate the required parts, grasp and move them to the designated location, and place them accurately. The state space of the part-picking robot is relatively smaller than some other systems, as it mainly depends on the number of parts and the size of the warehouse or factory.
